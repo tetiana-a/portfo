@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seniora TK</title>
+    
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="/0.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+     <!-- Music Player -->
+<section id="music-player">
+    <h2>For your mood
+    </h2>
+    <div class="player">
+        <button id="play-pause" onclick="togglePlay()">Play</button>
+        <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+        <input type="range" id="seek-slider" value="0" max="100">
+    </div>
+    <audio id="audio">
+        <source src="/1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <header>
+        <h1>Tetiana Kotolup</h1>
+        <p>Seniora Software Developer</p>
+        <nav>
+            
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a seasoned developer with over 10 years of experience in full-stack development. I specialize in building scalable web applications and leading development teams to success.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        
+        <ul>
+             JavaScript (ES6+)
+             <br>React.js & Vue.js
+             <br>Node.js & Express
+             <br>HTML5 & CSS3
+             <br>REST & GraphQL APIs
+             <br>Database Management (SQL, MongoDB)
+             <style>
+                #skills {
+                    color: rgba(181, 252, 193, 0.696); /*color*/
+                }
+            </style>
+            
+        
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>A detailed description of this project, showcasing technologies used and problems solved.</p>
+            <a href="https://example.com">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Another project description, focusing on innovative features and unique challenges.</p>
+            <a href="https://example.com">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to reach out, please email me at kotolup24@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tetiana Kotolup</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+   
+</section>
+
+</body>
+</html>
